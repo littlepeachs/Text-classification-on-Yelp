@@ -19,11 +19,11 @@ import random
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--seed", default=0, type=int)
-    parser.add_argument("--embedding-size", default=128, type=int)
+    parser.add_argument("--embedding-size", default=512, type=int)
     parser.add_argument("--hidden-size", default=128, type=int)
     parser.add_argument("--num-layers", default=1, type=int)
     parser.add_argument("--batch-size", default=32, type=int)
-    parser.add_argument("--lr", default=5e-4, type=float)
+    parser.add_argument("--lr", default=2e-3, type=float)
     parser.add_argument("--weight-decay", default=1e-4, type=float)
     parser.add_argument("--num-epoch", default=20, type=int)
     parser.add_argument("--save-interval", default=1, type=int)
@@ -106,9 +106,9 @@ def train(args):
         valid_loader = DataLoader(valid_dataset, batch_size=batch_size, shuffle=False, collate_fn=collate_fn)
         test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False, collate_fn=collate_fn)
     
+    print("data preparation finished")
 
-
-    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
     if args.model_type == 'bow':
         model = nn.Linear(train_dataset.vocab_size, 5)
     elif args.model_type == 'fast_text':
@@ -142,7 +142,9 @@ def train(args):
     
 
     best_acc = 0
+    print("ready to train")
     for epoch in range(args.num_epoch):
+        print("epoch: {}".format(epoch))
         total_loss = 0
         total_correct = 0
         total_num = 0
@@ -176,6 +178,7 @@ def train(args):
         train_acc.append(acc)
 
         loss, acc = evaluate(args, model, valid_loader, criterion)
+        print("valid_loss:{},valid_acc:{}".format(loss, acc))
         valid_loss.append(loss)
         valid_acc.append(acc)
 

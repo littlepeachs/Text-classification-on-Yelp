@@ -5,6 +5,8 @@ import re
 from torch.utils.data import Dataset, DataLoader
 import torch
 import sys
+
+from traitlets import Float
 from dictionary import Dictionary
 import csv
 import collections
@@ -12,8 +14,10 @@ import nltk
 import logging
 import random
 import numpy as np
+import csv
+import string
 from collections import defaultdict
-nltk.download("stopwords")
+# nltk.download("stopwords")
 
 def collate_fn(batch):
     max_length = 0
@@ -84,48 +88,141 @@ class BOWDataset(Dataset):
         # n for n_gram
         self.filename = os.path.join(data_path, "{}.csv".format(split))
         self.data = []
+        self.label = []
         self.dictionary = dictionary
         self.vocab_size = len(dictionary) 
         self.stopwords = nltk.corpus.stopwords.words('english')
-
-        #########################################  Your Code  ###########################################
-        # todo
-
-        raise NotImplementedError
-        #################################################################################################
+        self.preprocess()
+        self.transform2tensor()
+        self.data = torch.FloatTensor(self.data)
+        self.label=torch.tensor(self.label)
+          
+    def preprocess(self):
+        punctuation_string = string.punctuation
+        with open(self.filename,'r') as f:
+            reader = csv.reader(f)
+            for row in reader:
+                self.label.append(int(row[0]))
+                self.data.append(row[1])
+        for i in range(len(self.data)):
+            sentence = self.data[i]
+            sen_split = sentence.split()
+            j=0
+            while j < len(sen_split):
+                contain_num= 0
+                k=0
+                while k < len(sen_split[j]):
+                    if sen_split[j][k] in punctuation_string:
+                        sen_split[j] = sen_split[j][:k]+sen_split[j][k+1:]
+                        continue
+                    if sen_split[j][k] in ['0','1','2','3','4','5','6','7','8','9']:
+                        contain_num=1
+                        break
+                    k+=1
+                sen_split[j] = sen_split[j].lower()
+                if (sen_split[j] in self.stopwords or contain_num==1):
+                    sen_split.pop(j)
+                    continue
+                j+=1
+            sentence = " ".join(sen_split)
+            self.data[i] = sen_split  
         
-        
+    def transform2tensor(self):
+        for i in range(len(self.data)):
+            sen_tensor = np.zeros(self.vocab_size)
+            words = self.data[i]
+            for word in words:
+                if word in self.dictionary.indices:
+                    sen_tensor[self.dictionary.indices[word]]+=1
+                else:
+                    sen_tensor[self.dictionary.indices['<unk>']]+=1
+            self.data[i]=sen_tensor
+
 
     def __len__(self):
         return len(self.data)
 
     def __getitem__(self, index):
         # bow_freq_feature and label
-        return self.data[index][-2:]
+        return [self.data[index],self.label[index]]
 
 
 class FastTextDataset(Dataset):
-    def __init__(self, data_path="./yelp_small/", dictionary=None, split='train', n=2):
+    def __init__(self, data_path="./yelp_small/", dictionary=None, split='train', n=2,n_gram_size=None):
 
         self.filename = os.path.join(data_path, "{}.csv".format(split))
         self.data = []
+        self.label = []
+        # self.max_length = 200 
+        self.n_gram = n
         self.dictionary = dictionary
+        self.hash_size = 1000     
         self.padding_idx = self.dictionary.pad()
         self.vocab_size = len(dictionary)
-        self.lens = []
+        self.total_size = self.hash_size+self.vocab_size
+        self.lens = []  # record the ith sentence length
+        self.preprocess()
+        self.transform2tensor()
+        print("success")
 
-        #########################################  Your Code  ###########################################
-        # todo
+    def hash32(self,hash_str):
+        hashres = 2166136261
+        FNV_prime = 16777619
+        for char in hash_str:
+            hashres = hashres ^ ord(char)
+            hashres = hashres * FNV_prime
 
-        raise NotImplementedError
-        #################################################################################################
+        return hashres & ((1 << 32) - 1)
+
+    #Lazy mod mapping method:
+    def hashLazy32(self,hash_str,range):
+        return self.hash32(hash_str) % range
+
+    def n_gram_feature(self,x):
+        init_length = len(x)
+        for i in range(init_length-1):
+            n_gram = x[i]+" "+x[i+1]
+            x.append(n_gram)
+        return x
+
+    def preprocess(self):
+        with open(self.filename,'r') as f:
+            reader = csv.reader(f)
+            for row in reader:
+                self.label.append(int(row[0]))
+                self.data.append(row[1])
+        for i in range(len(self.data)):
+            words = self.data[i].split()
+            self.lens.append(len(words))
+            # if len(words)>=self.max_length:
+            #     words = words[:self.max_length]
+            # while len(words)<self.max_length:
+            #     words.append('<pad>')
+            words = self.n_gram_feature(words)
+            self.data[i] = words
+    
+    def transform2tensor(self):
+        for i in range(len(self.data)):
+            for j in range(self.lens[i]):
+                self.data[i][j] = self.data[i][j].lower()
+                if self.data[i][j] in self.dictionary.indices:
+                    self.data[i][j] = self.dictionary.indices[self.data[i][j]]
+                else:
+                    self.data[i][j] = self.dictionary.indices["<unk>"]
+
+            for j in range(self.lens[i],len(self.data[i])):
+                self.data[i][j]=self.hashLazy32(self.data[i][j],self.hash_size)+self.vocab_size
+            self.data[i] = torch.FloatTensor(self.data[i])
+            self.lens[i] = len(self.data[i])
+            # self.data[i] = np.array(self.data[i])
+            # n_values = np.max(self.data[i]) + 1
+            # self.data[i] = np.eye(n_values,dtype=np.float32)[self.data[i]]
 
     def __len__(self):
         return len(self.data)
 
     def __getitem__(self, index):
-        raw_text, tokens, token_id, label, length = self.data[index] 
-        return token_id, label, length
+        return self.data[index],self.label[index],self.lens[index]
 
 
     
