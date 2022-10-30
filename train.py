@@ -19,22 +19,22 @@ import random
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--seed", default=0, type=int)
-    parser.add_argument("--embedding-size", default=512, type=int)
-    parser.add_argument("--hidden-size", default=128, type=int)
-    parser.add_argument("--num-layers", default=1, type=int)
+    parser.add_argument("--embedding-size", default=256, type=int)
+    parser.add_argument("--hidden-size", default=256, type=int)
+    parser.add_argument("--num-layers", default=2, type=int)
     parser.add_argument("--batch-size", default=32, type=int)
-    parser.add_argument("--lr", default=2e-3, type=float)
-    parser.add_argument("--weight-decay", default=1e-4, type=float)
+    parser.add_argument("--lr", default=1e-3, type=float)
+    parser.add_argument("--weight-decay", default=5e-6, type=float)
     parser.add_argument("--num-epoch", default=20, type=int)
     parser.add_argument("--save-interval", default=1, type=int)
     parser.add_argument("--save-dir", default="./checkpoints")
-    parser.add_argument("--model-type", default="bow", choices=["bow", "fast_text", "cnn", "lstm"])
+    parser.add_argument("--model-type", default="cnn", choices=["bow", "fast_text", "cnn", "lstm"])
     args = parser.parse_args()
     return args
 
 
 def evaluate(args, model, valid_loader, criterion):
-    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
     model.eval()
     with torch.no_grad():
         total_loss = 0

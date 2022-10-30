@@ -1,0 +1,222 @@
+13:03:33 INFO Epoch: 1, 	 Iter: 50/188, 	 Loss: 1.60271809, 	 Acc: 22.312 , 	 lr: 0.004000
+13:03:33 INFO Epoch: 1, 	 Iter: 100/188, 	 Loss: 1.59422223, 	 Acc: 24.688 , 	 lr: 0.004000
+13:03:33 INFO Epoch: 1, 	 Iter: 150/188, 	 Loss: 1.58953807, 	 Acc: 26.125 , 	 lr: 0.004000
+13:03:33 INFO Epoch: 1, 	 Valid, Loss: 1.55268113, 	 Acc: 31.800 , 	 Best Acc: 31.800
+13:03:33 DEBUG Loaded backend agg version unknown.
+13:03:33 DEBUG findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+13:03:33 DEBUG findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+13:03:33 DEBUG findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+13:03:33 DEBUG findfont: score(FontEntry(fname='/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+13:03:33 DEBUG findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+13:03:33 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:33 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:33 DEBUG Writing TrueType font.
+13:03:34 INFO Epoch: 2, 	 Iter: 50/188, 	 Loss: 1.52354880, 	 Acc: 35.812 , 	 lr: 0.004000
+13:03:34 INFO Epoch: 2, 	 Iter: 100/188, 	 Loss: 1.50947491, 	 Acc: 36.469 , 	 lr: 0.004000
+13:03:34 INFO Epoch: 2, 	 Iter: 150/188, 	 Loss: 1.49683385, 	 Acc: 37.000 , 	 lr: 0.004000
+13:03:34 INFO Epoch: 2, 	 Valid, Loss: 1.44674067, 	 Acc: 39.400 , 	 Best Acc: 39.400
+13:03:34 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:34 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:34 DEBUG Writing TrueType font.
+13:03:35 INFO Epoch: 3, 	 Iter: 50/188, 	 Loss: 1.40373948, 	 Acc: 41.438 , 	 lr: 0.004000
+13:03:35 INFO Epoch: 3, 	 Iter: 100/188, 	 Loss: 1.39651421, 	 Acc: 42.719 , 	 lr: 0.004000
+13:03:35 INFO Epoch: 3, 	 Iter: 150/188, 	 Loss: 1.37757921, 	 Acc: 44.208 , 	 lr: 0.004000
+13:03:35 INFO Epoch: 3, 	 Valid, Loss: 1.35411434, 	 Acc: 40.600 , 	 Best Acc: 40.600
+13:03:35 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:35 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:35 DEBUG Writing TrueType font.
+13:03:36 INFO Epoch: 4, 	 Iter: 50/188, 	 Loss: 1.27830380, 	 Acc: 49.812 , 	 lr: 0.004000
+13:03:36 INFO Epoch: 4, 	 Iter: 100/188, 	 Loss: 1.26141755, 	 Acc: 50.156 , 	 lr: 0.004000
+13:03:36 INFO Epoch: 4, 	 Iter: 150/188, 	 Loss: 1.25446003, 	 Acc: 49.562 , 	 lr: 0.004000
+13:03:36 INFO Epoch: 4, 	 Valid, Loss: 1.30477285, 	 Acc: 41.200 , 	 Best Acc: 41.200
+13:03:36 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:36 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:36 DEBUG Writing TrueType font.
+13:03:37 INFO Epoch: 5, 	 Iter: 50/188, 	 Loss: 1.17514297, 	 Acc: 52.312 , 	 lr: 0.004000
+13:03:37 INFO Epoch: 5, 	 Iter: 100/188, 	 Loss: 1.17204751, 	 Acc: 52.812 , 	 lr: 0.004000
+13:03:37 INFO Epoch: 5, 	 Iter: 150/188, 	 Loss: 1.16814633, 	 Acc: 53.271 , 	 lr: 0.004000
+13:03:37 INFO Epoch: 5, 	 Valid, Loss: 1.27276451, 	 Acc: 42.800 , 	 Best Acc: 42.800
+13:03:37 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:37 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:37 DEBUG Writing TrueType font.
+13:03:38 INFO Epoch: 6, 	 Iter: 50/188, 	 Loss: 1.11594440, 	 Acc: 58.062 , 	 lr: 0.004000
+13:03:38 INFO Epoch: 6, 	 Iter: 100/188, 	 Loss: 1.11828944, 	 Acc: 56.469 , 	 lr: 0.004000
+13:03:38 INFO Epoch: 6, 	 Iter: 150/188, 	 Loss: 1.11134843, 	 Acc: 56.875 , 	 lr: 0.004000
+13:03:38 INFO Epoch: 6, 	 Valid, Loss: 1.24930128, 	 Acc: 44.800 , 	 Best Acc: 44.800
+13:03:38 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:38 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:38 DEBUG Writing TrueType font.
+13:03:39 INFO Epoch: 7, 	 Iter: 50/188, 	 Loss: 1.03106043, 	 Acc: 62.062 , 	 lr: 0.004000
+13:03:39 INFO Epoch: 7, 	 Iter: 100/188, 	 Loss: 1.02485933, 	 Acc: 62.344 , 	 lr: 0.004000
+13:03:39 INFO Epoch: 7, 	 Iter: 150/188, 	 Loss: 1.03560128, 	 Acc: 61.062 , 	 lr: 0.004000
+13:03:39 INFO Epoch: 7, 	 Valid, Loss: 1.25274076, 	 Acc: 44.600 , 	 Best Acc: 44.800
+13:03:39 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:39 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:39 DEBUG Writing TrueType font.
+13:03:40 INFO Epoch: 8, 	 Iter: 50/188, 	 Loss: 0.97720279, 	 Acc: 65.312 , 	 lr: 0.004000
+13:03:40 INFO Epoch: 8, 	 Iter: 100/188, 	 Loss: 0.98215145, 	 Acc: 64.594 , 	 lr: 0.004000
+13:03:40 INFO Epoch: 8, 	 Iter: 150/188, 	 Loss: 0.98628620, 	 Acc: 63.854 , 	 lr: 0.004000
+13:03:40 INFO Epoch: 8, 	 Valid, Loss: 1.24900932, 	 Acc: 42.600 , 	 Best Acc: 44.800
+13:03:40 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:40 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:40 DEBUG Writing TrueType font.
+13:03:40 INFO Epoch: 9, 	 Iter: 50/188, 	 Loss: 0.92954148, 	 Acc: 67.438 , 	 lr: 0.004000
+13:03:41 INFO Epoch: 9, 	 Iter: 100/188, 	 Loss: 0.92045159, 	 Acc: 67.281 , 	 lr: 0.004000
+13:03:41 INFO Epoch: 9, 	 Iter: 150/188, 	 Loss: 0.92651615, 	 Acc: 66.646 , 	 lr: 0.004000
+13:03:41 INFO Epoch: 9, 	 Valid, Loss: 1.22423846, 	 Acc: 44.800 , 	 Best Acc: 44.800
+13:03:41 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:41 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:41 DEBUG Writing TrueType font.
+13:03:41 INFO Epoch: 10, 	 Iter: 50/188, 	 Loss: 0.85696636, 	 Acc: 71.875 , 	 lr: 0.004000
+13:03:42 INFO Epoch: 10, 	 Iter: 100/188, 	 Loss: 0.86734320, 	 Acc: 70.969 , 	 lr: 0.004000
+13:03:42 INFO Epoch: 10, 	 Iter: 150/188, 	 Loss: 0.86711531, 	 Acc: 70.167 , 	 lr: 0.004000
+13:03:42 INFO Epoch: 10, 	 Valid, Loss: 1.22584352, 	 Acc: 44.200 , 	 Best Acc: 44.800
+13:03:42 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:42 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:42 DEBUG Writing TrueType font.
+13:03:42 INFO Epoch: 11, 	 Iter: 50/188, 	 Loss: 0.83251803, 	 Acc: 72.938 , 	 lr: 0.004000
+13:03:42 INFO Epoch: 11, 	 Iter: 100/188, 	 Loss: 0.83081081, 	 Acc: 72.594 , 	 lr: 0.004000
+13:03:43 INFO Epoch: 11, 	 Iter: 150/188, 	 Loss: 0.83725666, 	 Acc: 71.771 , 	 lr: 0.004000
+13:03:43 INFO Epoch: 11, 	 Valid, Loss: 1.24467970, 	 Acc: 43.200 , 	 Best Acc: 44.800
+13:03:43 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:43 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:43 DEBUG Writing TrueType font.
+13:03:43 INFO Epoch: 12, 	 Iter: 50/188, 	 Loss: 0.76410247, 	 Acc: 77.062 , 	 lr: 0.004000
+13:03:43 INFO Epoch: 12, 	 Iter: 100/188, 	 Loss: 0.77649333, 	 Acc: 75.469 , 	 lr: 0.004000
+13:03:44 INFO Epoch: 12, 	 Iter: 150/188, 	 Loss: 0.78417823, 	 Acc: 74.875 , 	 lr: 0.004000
+13:03:44 INFO Epoch: 12, 	 Valid, Loss: 1.23804004, 	 Acc: 44.000 , 	 Best Acc: 44.800
+13:03:44 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:44 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:44 DEBUG Writing TrueType font.
+13:03:44 INFO Epoch: 13, 	 Iter: 50/188, 	 Loss: 0.74381163, 	 Acc: 77.500 , 	 lr: 0.004000
+13:03:44 INFO Epoch: 13, 	 Iter: 100/188, 	 Loss: 0.74389308, 	 Acc: 76.875 , 	 lr: 0.004000
+13:03:44 INFO Epoch: 13, 	 Iter: 150/188, 	 Loss: 0.74580560, 	 Acc: 76.604 , 	 lr: 0.004000
+13:03:45 INFO Epoch: 13, 	 Valid, Loss: 1.24028505, 	 Acc: 44.600 , 	 Best Acc: 44.800
+13:03:45 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:45 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:45 DEBUG Writing TrueType font.
+13:03:45 INFO Epoch: 14, 	 Iter: 50/188, 	 Loss: 0.68692165, 	 Acc: 80.688 , 	 lr: 0.004000
+13:03:45 INFO Epoch: 14, 	 Iter: 100/188, 	 Loss: 0.70357765, 	 Acc: 79.594 , 	 lr: 0.004000
+13:03:45 INFO Epoch: 14, 	 Iter: 150/188, 	 Loss: 0.71483948, 	 Acc: 78.521 , 	 lr: 0.004000
+13:03:45 INFO Epoch: 14, 	 Valid, Loss: 1.26589463, 	 Acc: 43.000 , 	 Best Acc: 44.800
+13:03:45 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:45 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:45 DEBUG Writing TrueType font.
+13:03:46 INFO Epoch: 15, 	 Iter: 50/188, 	 Loss: 0.69419498, 	 Acc: 82.188 , 	 lr: 0.004000
+13:03:46 INFO Epoch: 15, 	 Iter: 100/188, 	 Loss: 0.67810884, 	 Acc: 81.875 , 	 lr: 0.004000
+13:03:46 INFO Epoch: 15, 	 Iter: 150/188, 	 Loss: 0.67840212, 	 Acc: 81.062 , 	 lr: 0.004000
+13:03:46 INFO Epoch: 15, 	 Valid, Loss: 1.27251440, 	 Acc: 44.000 , 	 Best Acc: 44.800
+13:03:46 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:46 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:46 DEBUG Writing TrueType font.
+13:03:47 INFO Epoch: 16, 	 Iter: 50/188, 	 Loss: 0.62251905, 	 Acc: 83.188 , 	 lr: 0.004000
+13:03:47 INFO Epoch: 16, 	 Iter: 100/188, 	 Loss: 0.63541772, 	 Acc: 82.500 , 	 lr: 0.004000
+13:03:47 INFO Epoch: 16, 	 Iter: 150/188, 	 Loss: 0.64971972, 	 Acc: 81.708 , 	 lr: 0.004000
+13:03:47 INFO Epoch: 16, 	 Valid, Loss: 1.28302478, 	 Acc: 45.200 , 	 Best Acc: 45.200
+13:03:47 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:47 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:47 DEBUG Writing TrueType font.
+13:03:48 INFO Epoch: 17, 	 Iter: 50/188, 	 Loss: 0.57290861, 	 Acc: 84.188 , 	 lr: 0.004000
+13:03:48 INFO Epoch: 17, 	 Iter: 100/188, 	 Loss: 0.59264380, 	 Acc: 83.469 , 	 lr: 0.004000
+13:03:48 INFO Epoch: 17, 	 Iter: 150/188, 	 Loss: 0.60475905, 	 Acc: 83.042 , 	 lr: 0.004000
+13:03:48 INFO Epoch: 17, 	 Valid, Loss: 1.30130120, 	 Acc: 44.200 , 	 Best Acc: 45.200
+13:03:48 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:48 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:48 DEBUG Writing TrueType font.
+13:03:49 INFO Epoch: 18, 	 Iter: 50/188, 	 Loss: 0.56118982, 	 Acc: 85.750 , 	 lr: 0.004000
+13:03:49 INFO Epoch: 18, 	 Iter: 100/188, 	 Loss: 0.56066933, 	 Acc: 84.906 , 	 lr: 0.004000
+13:03:49 INFO Epoch: 18, 	 Iter: 150/188, 	 Loss: 0.57976259, 	 Acc: 84.062 , 	 lr: 0.004000
+13:03:49 INFO Epoch: 18, 	 Valid, Loss: 1.32171204, 	 Acc: 46.200 , 	 Best Acc: 46.200
+13:03:49 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:49 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:49 DEBUG Writing TrueType font.
+13:03:50 INFO Epoch: 19, 	 Iter: 50/188, 	 Loss: 0.50762254, 	 Acc: 86.812 , 	 lr: 0.004000
+13:03:50 INFO Epoch: 19, 	 Iter: 100/188, 	 Loss: 0.53398192, 	 Acc: 85.875 , 	 lr: 0.004000
+13:03:50 INFO Epoch: 19, 	 Iter: 150/188, 	 Loss: 0.55863965, 	 Acc: 85.271 , 	 lr: 0.004000
+13:03:50 INFO Epoch: 19, 	 Valid, Loss: 1.32430565, 	 Acc: 45.600 , 	 Best Acc: 46.200
+13:03:50 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:50 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:50 DEBUG Writing TrueType font.
+13:03:51 INFO Epoch: 20, 	 Iter: 50/188, 	 Loss: 0.52880531, 	 Acc: 87.812 , 	 lr: 0.004000
+13:03:51 INFO Epoch: 20, 	 Iter: 100/188, 	 Loss: 0.51803456, 	 Acc: 87.531 , 	 lr: 0.004000
+13:03:51 INFO Epoch: 20, 	 Iter: 150/188, 	 Loss: 0.53281311, 	 Acc: 86.438 , 	 lr: 0.004000
+13:03:51 INFO Epoch: 20, 	 Valid, Loss: 1.34827318, 	 Acc: 46.600 , 	 Best Acc: 46.600
+13:03:51 DEBUG Assigning font /b'F1' = '/home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+13:03:51 DEBUG Embedding font /home/liwentao/miniconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+13:03:51 DEBUG Writing TrueType font.
+13:03:51 INFO valid loss: 1.348, 	 valid acc: 46.600, 	 test loss: 1.414, 	 test acc: 49.800 

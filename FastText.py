@@ -7,7 +7,7 @@ class FastText(nn.Module):
         super(FastText, self).__init__()
         self.embed = nn.Embedding(vocab_size,embedding_size,padding_idx)
         self.fc = nn.Linear(embedding_size,5)
-        self.dropout = nn.Dropout()
+        self.dropout = nn.Dropout(0.6)
 
     def forward(self, inputs):
         embed = self.embed(inputs)

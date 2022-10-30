@@ -214,9 +214,6 @@ class FastTextDataset(Dataset):
                 self.data[i][j]=self.hashLazy32(self.data[i][j],self.hash_size)+self.vocab_size
             self.data[i] = torch.FloatTensor(self.data[i])
             self.lens[i] = len(self.data[i])
-            # self.data[i] = np.array(self.data[i])
-            # n_values = np.max(self.data[i]) + 1
-            # self.data[i] = np.eye(n_values,dtype=np.float32)[self.data[i]]
 
     def __len__(self):
         return len(self.data)
